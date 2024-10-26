@@ -10,9 +10,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // MySQL connection
 const db = mysql.createConnection({
-    host: 'localhost', // replace with your MySQL host
-    user: 'Host', // replace with your MySQL username
-    password: 'Creditafinance@123', // replace with your MySQL password
+    host: 'mysql-loan-application-backupcredita-5ebc.g.aivencloud.com', // replace with your MySQL host
+    user: 'avnadmin', // replace with your MySQL username
+    password: 'AVNS_imXagB_IpbsjzLVeOfc', // replace with your MySQL password
     database: 'backend_contacts', // the database we created
 });
 
