@@ -14,6 +14,7 @@ const db = mysql.createConnection({
     user: 'avnadmin', // replace with your MySQL username
     password: 'AVNS_imXagB_IpbsjzLVeOfc', // replace with your MySQL password
     database: 'backend_contacts', // the database we created
+    port:19594,
 });
 
 db.connect((err) => {
@@ -44,5 +45,5 @@ app.post('/apply', (req, res) => {
 // Start the server
 const PORT = 3000; // or any other port you'd like
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${3000}`);
+    console.log(`Server is running on port ${19594}`);
 });
